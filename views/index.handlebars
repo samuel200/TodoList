@@ -1,0 +1,12 @@
+<div class="container">
+    <div id="input-form">
+        <h1>Todo Application</h1>
+        <form action="/" method="post" id="todo-form">
+            <input type="text" placeholder="Enter task name..." name="name">
+            <button type="submit">Create</button>
+        </form>
+    </div>
+    <div id="todo-holder">
+        {{^todos}}<h3>No task entered</h3>{{/todos}}
+    </div>
+</div>

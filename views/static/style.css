@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #eee;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+#input-form{
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px solid #999;
+    text-align: center;
+}
+
+#input-form h1{
+    font-weight: 400;
+    margin: 20px auto 40px auto;
+}
+
+#input-form input,
+.todo-item input[type='text']{
+    font-size: inherit;
+    padding: 15px;
+    border-radius: 5px;
+    width: 350px;
+    border: none;
+    border: 2px solid rgb(115, 178, 202);
+    font-weight: 500;
+    transition: border-color .4s ease, outline-color .4s ease;
+}
+
+#input-form input:focus,
+.todo-item input:focus{
+    border-color: rgb(4, 94, 129);
+    outline-color: rgb(4, 94, 129); 
+}
+
+#input-form button,
+.todo-item button{
+    padding: 15px 25px;
+    font: inherit;
+    color: white;
+    background: rgb(65, 148, 180); 
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600; 
+    transition: background .5s ease;
+}
+
+#input-form button:hover{
+    cursor: pointer;
+    background:  rgb(4, 94, 129);
+}
+
+.todo-item{
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+h3{
+    color: red;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.hide{
+    display: none !important;
+    width: 0px;
+}
+
+
+.btn-1{
+    background: rgb(64, 233, 163) !important;
+}
+
+.btn-1:hover{
+    background: rgb(169, 255, 219);
+    cursor: pointer;
+}
+
+.btn-2{
+    background: rgb(226, 74, 74) !important;
+}
+
+.btn-2:hover{
+    background: rgb(223, 126, 126);
+    cursor: pointer;
+}
+
+.todo-item input[type=checkbox]{
+    text-align: left;
+}
+
+
+@media screen and (max-width: 960px){
+    .container{
+        width: 90%;
+    }
+
+    #input-form button{
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .todo-item > div:nth-of-type(2){
+        width: 100%;
+        text-align: center;
+    }
+    .todo-item button{
+        width: 48%;
+        margin-top: 15px;
+    }
+}
