@@ -1,5 +1,5 @@
-# Members App
-This is a simple members app that has the ability to create members with name and occupation, providing both an api and a template to manage the members.
+# Todo List App
+This is a simple todo list app that has the ability to create tasks with name, providing both an api and a template to manage the members.
 
 ## Technologies Used
 - **HTML**
@@ -9,6 +9,7 @@ This is a simple members app that has the ability to create members with name an
 - **NODEJS**
 - **EXPRESSJS**
 - **EXPRESS HANDLEBARS**
+- **MONGODB**
 
 ## Installation
 - clone the repository using `git clone https://github.com/samuel200/node-tutorial.git` in a terminal set at a directory of your choice.
