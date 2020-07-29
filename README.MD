@@ -13,7 +13,7 @@ This is a simple todo list app that has the ability to create tasks with name, p
 
 ## Installation
 - clone the repository using `git clone https://github.com/samuel200/TodoList.git` in a terminal set at a directory of your choice.
-- Enter `npm init` to setup the node app
+- Enter `node init` to setup the node app
 - Enter `npm install` to get all the dependencies
 - Enter `npm run dev` to get the app started with nodemon
 - Go to [http://localhost:5000](http://localhost:5000) to view the page
